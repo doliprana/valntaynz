@@ -1,0 +1,111 @@
+
+body {
+  background: #fb84a2;
+background: -webkit-radial-gradient(circle, #fb84a2 0%, #f43a3a 100%);
+background: radial-gradient(circle, #fb84a2 0%, #f43a3a 100%);
+font-family: 'Crimson Text', serif;
+}
+marquee {
+  color: #f7f7f7;
+  font-size: xx-large;
+  font-weight: 300;
+  background-color: rgb(248, 116, 116);
+  font-family: cursive;
+}
+img {
+  width: 100px; 
+  height: auto; 
+  filter: drop-shadow(10px 7px 16px rgb(0, 0, 0));
+}
+.hilo{
+  position: absolute;
+    bottom: 0;
+    right: 0;
+    filter: drop-shadow(20px 7px 15px rgb(22, 22, 22));
+    width: 100px;
+    height: auto;
+}
+.yy {
+  filter: drop-shadow(20px 7px 15px rgb(0, 0, 0));
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.yum {
+  filter: drop-shadow(23px 4px 15px rgb(51, 51, 51));
+  position: absolute;
+  right: 0;
+  width: 130px;
+}
+h3 {
+  position: absolute;
+      top: 13%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: cursive;
+      font-size: 20px;
+      color: #000000;
+      background-color: #fad2de;
+     border-radius: 30px;
+      text-align: center;
+      width: auto;
+}
+.main {
+  filter: drop-shadow(rgb(49, 48, 48) 20px 7px 5px);
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background: rgb(253, 151, 151);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(211, 95, 95);
+  border-image: initial;
+  border-radius: 60px;
+  padding: 20px;
+}
+.btn {
+  position: absolute;
+    top: 80%; 
+    left: 57%;
+    transform: translate(-50%, -50%);
+    padding: 15px 25px;
+    font-weight: bold;
+    cursor: grab;
+    outline: none;
+    color: #e6d8d8;
+    background-color: #fd8181;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 5px #eec7c7;
+    transition: 0.3s;
+    font-style: unset;
+}
+
+.btn:hover {
+  background-color: #fc6c6c;
+  color:rgb(0, 0, 0, 0,5)
+}
+.btun {
+  position: absolute;
+  top: 80%; 
+  left: 44%;
+  transform: translate(-50%, -50%);
+  padding: 15px 25px;
+  font-weight: bold;
+  cursor: grab;
+  outline: none;
+  color: #e6d8d8;
+  background-color: #fd8181;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 5px #eec7c7;
+  transition: 0.3s;
+  font-style: unset;
+}
+.btun:hover {
+  background-color: #fc6c6c;
+  color:rgb(0, 0, 0, 0,5)
+}

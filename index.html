@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>valntaynz</title>
+  <link rel="stylesheet" href="dawg.css">
+  <link rel="icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+  <h3>Will you be the one who fills my heart with love this Valentine's Day and every day after?</h3>
+  <marquee>♡ Be my valentine ♡ Be my valentine ♡ Be my valentine ♡ Be my valentine  ♡ Be my valentine ♡ Be my valentine ♡ Be my valentine ♡ Be my valentine ♡ Be my valentine ♡ Be my valentine ♡ Be my valentine ♡ </marquee> 
+  <img src="dikor.gif" class="kuro">
+  <img src="download.gif" class="yy">
+  <img src="he yesed.gif" class="hilo">
+  <img src="sro.gif" class="yum">
+  <img src="us.gif" class="main">
+  <div class="centered-container">
+    <button class="btun" id="noButton"  onmouseover="moveButton()" onclick="moveButton()">NO >:/</button>
+   <button class="btn" id="yesButton"  onclick="nextPage()">OMG YES!!</button>
+  </div>
+  <script>
+    function nextPage() {
+        window.location.href = 'yes.html';
+    }
+    function moveButton() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
+                    }
+    </script>
+</body>
+</html>

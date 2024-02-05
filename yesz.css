@@ -1,0 +1,73 @@
+body {
+  background: #fb84a2;
+  background: -webkit-radial-gradient(circle, #fb84a2 0%, #f43a3a 100%);
+  background: radial-gradient(circle, #fb84a2 0%, #f43a3a 100%);
+  font-family: 'Crimson Text', serif;
+}
+.oui {
+  filter: drop-shadow(rgb(49, 48, 48) 20px 7px 5px);
+  position: absolute;
+  top: 48%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background: rgb(253, 151, 151);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(211, 95, 95);
+  border-image: initial;
+  border-radius: 60px;
+  padding: 20px;
+}
+.kuro {
+  width: 100px; 
+  height: auto; 
+  filter: drop-shadow(10px 7px 16px rgb(0, 0, 0));
+}
+marquee {
+  color: #f7f7f7;
+  font-size: xx-large;
+  font-weight: 300;
+  background-color: rgb(248, 116, 116);
+  font-family: cursive;
+}
+h3 {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: cursive;
+  font-size: 20px;
+  color: #000000;
+  background-color: #fdb4ca;
+ border-radius: 20px;
+  text-align: center;
+  width: auto;
+}
+h6 {
+  position: absolute;
+  bottom: 0;
+  right: 1%;
+}
+pre {
+  filter: drop-shadow(rgb(49, 48, 48) 2px 20px 5px);
+  color: rgb(245, 40, 74);
+  background-color: peachpuff;
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(236, 97, 97);
+  border-image: initial;
+  border-radius: 60px;
+  padding: 20px;
+}
+.hilo{
+  position: absolute;
+    bottom: 5%;
+    right: 1%;
+    filter: drop-shadow(20px 7px 15px rgb(22, 22, 22));
+    width: 100px;
+    height: auto;
+}
